@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="DateTimeApp">
+<head>
+  <script src="angular.min.js"></script>
+  <script src="Q7.js"></script>
+</head>
+<body>
+  <div ng-controller="DateTimeController">
+    <h1>Current Date and Time</h1>
+    <p>{{ currentDate | date:'fullDate' }}</p>
+    <p>{{ currentTime | date:'mediumTime' }}</p>
+  </div>
+</body>
+
+</html>
